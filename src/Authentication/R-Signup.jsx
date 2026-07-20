@@ -18,7 +18,7 @@ function Signup({userpw, setuserpw}) {
     function handleadd()
     {
         setuserpw([...userpw,{username:eusername, password:epassword}])
-        navigate("Auth-TodoList/")
+        navigate("/")
     }
 
 
