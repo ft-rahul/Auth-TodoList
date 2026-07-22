@@ -6,7 +6,7 @@ function Routeyy({userpw,setuserpw})
 {
     return(
         <>
-            <BrowserRouter basename="/Auth-TodoList" >
+            <BrowserRouter basename="/auth-todolist" >
             <Routes>
                 <Route path="/" element={<Login userpw={userpw}/>} ></Route>
                 <Route path="/signup" element={<Signup userpw={userpw} setuserpw={setuserpw}/>} ></Route>
